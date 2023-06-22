@@ -1,3 +1,64 @@
 * {
-    background-color: darkgray;
+    background-color: black;
+}
+
+.header  {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.header h1 {
+    display: inline-flex;
+    font-size: 48px;
+    color: greenyellow;
+    margin-bottom: 15px;
+    justify-content: center;
+}
+
+.header nav p {
+    /* display: inline-block; */
+    color: greenyellow;
+    flex-direction: row;
+}
+
+#high-score {
+    /* justify-content: start; */
+    /* align-self: start; */
+    text-align: start;
+}
+
+#timer {
+    /* justify-content: end; */
+    /* align-self: end; */
+    text-align: end;
+}
+
+main {
+    /* color: greenyellow; */
+    background-color: white;
+    text-align: center;
+    padding: 5px;
+    border: 50px solid greenyellow;
+    border-radius: 8px;
+    margin-left: 25%;
+    margin-right: 25%;
+    height: 400px;
+
+}
+
+main section {
+    color: black;
+    /* background-color: white; */
+}
+
+main section h2 {
+    /* color: greenyellow; */
+    background-color: white;
+}
+
+main section p {
+    /* color: greenyellow; */
+    background-color: white;
+
 }

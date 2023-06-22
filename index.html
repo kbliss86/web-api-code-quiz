@@ -8,19 +8,22 @@
     <link rel="stylesheet" href="./assets/css/style.css" />
   </head>
   <body>
-    <header>
+    <header class="header">
       <h1>Code Quiz</h1>
-      <p>This is where the link to high score and time will display</p>
+      <nav>
+        <p id="high-score">View High Scores</p>
+        <p id="timer">Time:</p>
+      </nav>
     </header>
-    <main class="card">
-      <section class = "card-header">
-        <h2>This is where the Question will display</h2>
+    <main>
+      <section id="question">
+        <h2 id="question-display">This is where the Question will display</h2>
       </section>
-      <section class="card-body">
+      <section class="choices">
         <p>This is where the Answers will display</p>
       </section>
     </main>
-    <footer class="card-footer">
+    <footer class="answer">
         <p>This is where right/wrong will display</p>
     </footer>
   <script src="assets/js/script.js"></script>
