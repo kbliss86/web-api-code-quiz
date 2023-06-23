@@ -28,6 +28,10 @@
     text-align: start;
 }
 
+#score {
+    text-align: center;
+}
+
 #timer {
     /* justify-content: end; */
     /* align-self: end; */
@@ -61,4 +65,19 @@ main section p {
     /* color: greenyellow; */
     background-color: white;
 
+}
+
+button {
+    color: white;
+}
+
+ul {
+    background-color: white;
+    list-style-type: none;
+}
+
+ul li {
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
 }
