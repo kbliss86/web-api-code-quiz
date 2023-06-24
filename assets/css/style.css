@@ -16,26 +16,29 @@
     justify-content: center;
 }
 
+.header nav {
+    display: flex;
+    justify-content: center;
+}
+
 .header nav p {
-    /* display: inline-block; */
+    display: inline;
     color: greenyellow;
-    flex-direction: row;
 }
 
 #high-score {
-    /* justify-content: start; */
-    /* align-self: start; */
-    text-align: start;
+   order: 1;
+   margin-right: auto;
 }
 
 #score {
-    text-align: center;
+    order: 2;
+    margin: 0 auto;
 }
 
 #timer {
-    /* justify-content: end; */
-    /* align-self: end; */
-    text-align: end;
+    order: 3;
+    margin-left: auto;
 }
 
 main {
