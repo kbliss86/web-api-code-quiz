@@ -1,7 +1,7 @@
 # Web APIs: Code Quize
 
 ## Screenshot
-![Website main section](https://github.com/kbliss86/javascript-password-generator/blob/main/assets/images/password%20genny.PNG)
+![Website main section](https://github.com/kbliss86/web-api-code-quiz/blob/main/assets/images/code%20quiz%20screenshot.PNG)
 
 ## Links
 
