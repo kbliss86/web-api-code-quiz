@@ -2,6 +2,7 @@
     background-color: black;
 }
 
+/* header formating section start */
 .header  {
     display: flex;
     justify-content: center;
@@ -26,23 +27,27 @@
     color: greenyellow;
 }
 
+/* makes high score show on left side  */
 #high-score {
    order: 1;
    margin-right: auto;
 }
 
+/* makes score display in the middle  */
 #score {
     order: 2;
     margin: 0 auto;
 }
 
+/* makes the timer display on the right side */
 #timer {
     order: 3;
     margin-left: auto;
 }
+/* header formating section end  */
 
+/* main formating section start  */
 main {
-    /* color: greenyellow; */
     background-color: white;
     text-align: center;
     padding: 5px;
@@ -56,16 +61,13 @@ main {
 
 main section {
     color: black;
-    /* background-color: white; */
 }
 
 main section h2 {
-    /* color: greenyellow; */
     background-color: white;
 }
 
 main section p {
-    /* color: greenyellow; */
     background-color: white;
 
 }
@@ -84,3 +86,14 @@ ul li {
     padding: 10px;
     margin: 10px;
 }
+/* main formating section end  */
+
+/* footer formating section start  */
+.footer {
+    text-align: center;
+}
+
+.footer p {
+    color: greenyellow;
+}
+/* footer formating section end  */
