@@ -99,6 +99,7 @@ function setTime() {
             clearInterval(timerInterval);
             timerEl.textContent = "Time Remaining: 0" // when time runs out - timer reads 0 and discontinues the count down
             sendMessage();
+            addHighScore();
         }
     }, 1000);
 }
